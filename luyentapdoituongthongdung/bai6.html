@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a="Toi yeu ngon ngu lap trinh javascrip";
+    let dem=0;
+    for (i=0;i<a.length;i++){
+        if (a.charAt(i)=="a")
+        {
+            dem++;
+        }
+    }
+    document.writeln("So lan xuat hien ky tu a "+dem+'</br>');
+    let arr_string=a.split(" ");
+    document.writeln("so tu trong chuoi "+arr_string.length+'</br>');
+    let chuoimoi=a.replace("javascrip","Typescript")
+    document.writeln("chuoi sau khi thay the "+chuoimoi);
+</script>
+</body>
+</html>
